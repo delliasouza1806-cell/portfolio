@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dellia Souza- Web Developer</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="https://cloudflare.com" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <script src="js/main.js" defer></script>
 </head>
 <body>
@@ -25,7 +26,7 @@
         </button>
         <div class="theme-switcher">
             <label for="theme-toggle" class="switch-label">
-                <input type="checkbox" id="theme-toggle" class="switch-checkbox">
+                <input type="checkbox" id="theme-toggle" class="switch-checkbox" aria-label="Toggle theme between light and dark">
                 <span class="slider"></span>
             </label>
         </div>
@@ -44,7 +45,9 @@
             <div class="about-content">
                 <div class="about-image">
                     <img 
-                    src="images/profile-picture.png"
+                    src="images/profile-picture.webp"
+                    width="300"
+                    height="300"
                     class="about-me-image"
                     alt="A profrssional headshot of Dellia Souza similing, with a natural background">
                 </div>
@@ -64,7 +67,7 @@
             <h2>My Projects</h2>
             <div class="project-container">
                 <div class="project-card">
-                    <img src="images/project-placeholder1.png" alt="A screenshot or mockup of project one" class="project-image">
+                    <img src="images/project-placeholder1.webp" alt="A screenshot or mockup of project one" class="project-image" width="300" height="300" loading="lazy">
                     <div class="project-info">
                         <h3>Mathematicia</h3>
                         <p>
@@ -77,7 +80,7 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="images/project-placeholder2.png" alt="A screenshot or mockup of project one" class="project-image">
+                    <img src="images/project-placeholder2.webp" alt="A screenshot or mockup of project one" class="project-image" width="300" height="300" loading="lazy">
                     <div class="project-info">
                         <h3>Project One Title</h3>
                         <p>
@@ -90,7 +93,7 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="images/project-placeholder1.jpg" alt="A screenshot or mockup of project one" class="project-image">
+                    <img src="images/project-placeholder1.webp" alt="A screenshot or mockup of project one" class="project-image" width="300" height="300" loading="lazy">
                     <div class="project-info">
                         <h3>Project One Title</h3>
                         <p>
@@ -131,9 +134,8 @@
         <div class="container">
             <p>&copy; 2026 Dellia Souza. All Rights Reserved.</p>
             <ul>
-                <li><a href="#" target="_blank">GitHub</a></li>
-                <li><a href="#" target="_blank">LinkedIn</a></li>
-                <li><a href="#" target="_blank">Instagram</a></li>
+                <li><a href="https://github.com/delliasouza1806-cell" target="_blank" rel="noopener noreferrer" aria-label="View my profile on GitHub"><i class="fab fa-github"></i>GitHub</a></li>
+                <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="Connect with me on LinkedIn"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
             </ul>
         </div>
      </footer>
