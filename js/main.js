@@ -1,9 +1,9 @@
 const projects=[
     {
-        title:"Protfolio Project (This Website!)",
+        title:"Portfolio Project (This Website!)",
         description:"A responsive personal portfolio built from scratch using HTML,CSS and vanilla JavaScript. Features a dynamic theme switcher and is populated by a JavaScript data structure.",
         imageUrl:"./images/profile-picture.webp",
-        liveUrl:"https://your-live-site.com",//replace with your actual deployed url when ready
+        liveUrl:"https://aquamarine-quokka-563f5f.netlify.app/",//replace with your actual deployed url when ready
         codeUrl:"https://github.com/delliasouza1806-cell/portfolio"//replace with your actual GitHub repo
     },
     //project object 1
@@ -11,7 +11,7 @@ const projects=[
         title: "E-commerce Website Concept",
         description:"A concept design and front-end implementation for an e-commerce platform.Focused on a clean UI, responsive prodct grids, and a streamlined chekout process using modern CSS techniques.",
         imageUrl:"./images/ecommerece-project-preview.webp",
-        liveUrl:"#",
+        liveUrl:"https://electroniccom.netlify.app/",
         codeUrl:"https://github.com/delliasouza1806-cell/E-commerce-Website"//replace with your repo link
     },
     //project object 2
@@ -19,7 +19,7 @@ const projects=[
         title:"Task Management App",
         description:"A client-side task management application built with vanilla JavaScript.Allows users to add, edit, delete and mark tasks as complete, with all data saved to localStorage.",
         imageUrl:"./images/task-app-preview.webp",
-        liveUrl:"#",
+        liveUrl:"https://taskcontrolapp.netlify.app/",
         codeUrl:"https://github.com/delliasouza1806-cell/Task-Management-App.git"
     },
     {
@@ -33,7 +33,7 @@ const projects=[
         title: "Paillier Cryptosystem Implementation",
         description: "An implementation of the asymmetric public-key encryption algorithm. It enables privacy-preserving computations to be executed seamlessly on completely encrypted data files without decryption.",
         imageUrl: "images/project-placeholder2.webp",
-        liveUrl: "#",
+        liveUrl: "https://paillier.netlify.app/",
         codeUrl: "https://github.com/delliasouza1806-cell/Paillier-Cryptosystem.git"
     },
 ];
